@@ -13,7 +13,7 @@ with high accuracy.
 ## Technologies
 Project is created with:
 
-* ReactJS/Typescript
+* React/Typescript
 * SCSS
 
 ## Run
