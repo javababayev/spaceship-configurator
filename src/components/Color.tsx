@@ -5,6 +5,7 @@ interface Props {
     setColorPrice: React.Dispatch<React.SetStateAction<number>>;
 }
 
+
 const Color: React.FC<Props> = ({colorPrice, setColorPrice}) => {
 
     let [colorId, setColorId] = useState<string>('snow');
@@ -31,7 +32,7 @@ const Color: React.FC<Props> = ({colorPrice, setColorPrice}) => {
   return (
     <>
         <div className='section-container'>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-color"
@@ -45,10 +46,9 @@ const Color: React.FC<Props> = ({colorPrice, setColorPrice}) => {
                         <p className='color-price'>+0€</p>
                         <p className='item-title'>Snow</p>
                     </div>
-                    
                 </span>
             </label>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-color"
@@ -64,7 +64,7 @@ const Color: React.FC<Props> = ({colorPrice, setColorPrice}) => {
                     </div>
                 </span>
             </label>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-color"

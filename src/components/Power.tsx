@@ -31,7 +31,7 @@ const Power: React.FC<Props> = ({powerPrice, setPowerPrice}) => {
   return (
     <>
         <div className='section-container'>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-power"
@@ -46,7 +46,7 @@ const Power: React.FC<Props> = ({powerPrice, setPowerPrice}) => {
                     </div>
                 </span>
             </label>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-power"
@@ -61,7 +61,7 @@ const Power: React.FC<Props> = ({powerPrice, setPowerPrice}) => {
                     </div>
                 </span>
             </label>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-power"

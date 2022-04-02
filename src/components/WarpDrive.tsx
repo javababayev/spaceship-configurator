@@ -28,7 +28,7 @@ const WarpDrive: React.FC<Props> = ({drivePrice, setDrivePrice}) => {
   return (
     <>
         <div className='section-container'>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-warp"
@@ -43,7 +43,7 @@ const WarpDrive: React.FC<Props> = ({drivePrice, setDrivePrice}) => {
                     </div>
                 </span>
             </label>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-warp"

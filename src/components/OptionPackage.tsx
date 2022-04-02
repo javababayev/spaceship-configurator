@@ -14,8 +14,6 @@ const OptionPackage: React.FC<Props> = ({packagePrice, setPackagePrice}) => {
         setPackageId(e.currentTarget.value);
     }
 
-    console.log(packageId)
-
     useEffect(() => {
         switch (packageId) {
             case 'basic':
@@ -33,7 +31,7 @@ const OptionPackage: React.FC<Props> = ({packagePrice, setPackagePrice}) => {
   return (
     <>
         <div className='section-container'>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-package"
@@ -63,7 +61,7 @@ const OptionPackage: React.FC<Props> = ({packagePrice, setPackagePrice}) => {
                     </div>
                 </span>
             </label>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-package"
@@ -98,7 +96,7 @@ const OptionPackage: React.FC<Props> = ({packagePrice, setPackagePrice}) => {
                     </div>
                 </span>
             </label>
-            <label className='radio-button'>
+            <label className='radio-button' tabIndex={0}>
                 <input
                     type="radio"
                     name="radio-package"
