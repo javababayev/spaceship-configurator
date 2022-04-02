@@ -16,7 +16,7 @@ const App: React.FC = () => {
     <div className="container">
       
       <header className="header">
-        <p>Spaceship configurator</p>
+        <h1>Spaceship configurator</h1>
       </header>
       
       <div id='body-container'>

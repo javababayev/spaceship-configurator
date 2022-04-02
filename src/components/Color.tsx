@@ -5,7 +5,6 @@ interface Props {
     setColorPrice: React.Dispatch<React.SetStateAction<number>>;
 }
 
-
 const Color: React.FC<Props> = ({colorPrice, setColorPrice}) => {
 
     let [colorId, setColorId] = useState<string>('snow');
